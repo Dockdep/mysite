@@ -12,7 +12,7 @@ try {
     //Create a DI
     $di = new Phalcon\DI\FactoryDefault();
 
-    //Setup the view component
+    //Setup the views component
     $di->set('view', function(){
         $view = new \Phalcon\Mvc\View();
         $view->setViewsDir('../app/views/');
